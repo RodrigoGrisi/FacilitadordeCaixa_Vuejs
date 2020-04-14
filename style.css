@@ -6,8 +6,10 @@ body{
 
 .input-group{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 5px;
+    border: 1px solid white;
+    margin-top: 2px;
 }
 
 .input-group > label{
@@ -19,14 +21,40 @@ body{
 }
 
 .input-group > input{
+    border-style: none;
     background: none;
-    border: solid 2px white;
-    border-radius: 5px;
+    background-color: white;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 h1{
     text-align: center;
     font-size: 40px;
+}
+
+.final{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 40px;
+}
+
+.final button{
+  font-weight: bold;
+  border-style: none;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.final button:hover{
+  font-weight: bold;
+  border-style: none;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  cursor: pointer;
 }
